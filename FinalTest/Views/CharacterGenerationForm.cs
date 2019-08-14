@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FinalTest
 {
-    public partial class Form1 : Form
+    public partial class CharacterGenerationForm : Form
     {
-        public Form1()
+        public CharacterGenerationForm()
         {
             InitializeComponent();
         }

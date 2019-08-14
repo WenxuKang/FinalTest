@@ -8,6 +8,8 @@ namespace FinalTest
 {
     static class Program
     {
+
+        public static CharacterGenerationForm characterForm;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +18,10 @@ namespace FinalTest
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            characterForm = new CharacterGenerationForm();
+
+            Application.Run(characterForm);
         }
     }
 }
