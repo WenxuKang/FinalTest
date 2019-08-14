@@ -28,5 +28,23 @@ namespace FinalTest
         {
             Application.Exit();
         }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+            if (MainTabControl.SelectedIndex < MainTabControl.TabPages.Count - 1)
+            {
+                MainTabControl.SelectedIndex++;
+
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (MainTabControl.SelectedIndex != 0)
+            {
+                MainTabControl.SelectedIndex--;
+
+            }
+        }
     }
 }
