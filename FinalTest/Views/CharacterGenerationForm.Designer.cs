@@ -282,6 +282,7 @@
             this.button1.TabIndex = 7;
             this.button1.Text = "Generate Abilities";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // StrengthLabel
             // 
@@ -379,6 +380,7 @@
             this.label1.Size = new System.Drawing.Size(86, 45);
             this.label1.TabIndex = 14;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -553,6 +555,7 @@
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.openToolStripMenuItem.Text = "&Open";
+            this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // toolStripSeparator
             // 
@@ -671,6 +674,7 @@
             this.SkillsTab.TabIndex = 3;
             this.SkillsTab.Text = "Skills";
             this.SkillsTab.UseVisualStyleBackColor = true;
+            this.SkillsTab.Click += new System.EventHandler(this.SkillsTab_Click);
             // 
             // tableLayoutPanel4
             // 

@@ -16,6 +16,9 @@ namespace FinalTest.Objects
     class Skill
     {
         public string generateNames { get; set; }
+
+        public string skillsList { get; set; }
+
         public int level { get; set; }
 
     }

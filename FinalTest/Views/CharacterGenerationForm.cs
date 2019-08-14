@@ -11,8 +11,31 @@ using System.Windows.Forms;
 
 namespace FinalTest
 {
+
+
     public partial class CharacterGenerationForm : Form
     {
+
+        int number;
+        void random()
+        {
+            for (int count = 0; count < 20; count++)
+            {
+                Random rnd = new Random();
+                number = rnd.Next(11) + 1;
+                MessageBox.Show(number.ToString());
+                if (number == 0 || number <= 15)
+                {
+
+                }
+                else
+                {
+
+                }
+            }
+        }
+
+
         public CharacterGenerationForm()
         {
             InitializeComponent();
@@ -45,6 +68,26 @@ namespace FinalTest
                 MainTabControl.SelectedIndex--;
 
             }
+        }
+
+        private void SkillsTab_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            random();
         }
     }
 }
