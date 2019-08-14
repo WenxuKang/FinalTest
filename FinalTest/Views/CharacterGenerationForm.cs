@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FinalTest.Objects;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace FinalTest
         public CharacterGenerationForm()
         {
             InitializeComponent();
+        }
+
+        private void GenerateNameButton_Click(object sender, EventArgs e)
+        {
+            Random rand = new Random();
+            List<LoadNames> loadNames;
         }
     }
 }
