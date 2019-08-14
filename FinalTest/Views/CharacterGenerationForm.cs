@@ -23,5 +23,10 @@ namespace FinalTest
             Random rand = new Random();
             List<LoadNames> loadNames;
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
