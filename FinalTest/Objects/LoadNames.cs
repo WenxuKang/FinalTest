@@ -12,7 +12,7 @@ namespace FinalTest.Objects
     //Description: The Identity class to be use with the characterPortfolio class
 
 
-    public class Identity
+    public class LoadNames
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

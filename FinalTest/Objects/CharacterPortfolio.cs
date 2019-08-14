@@ -19,7 +19,9 @@ namespace FinalTest.Objects
 
 
         //Identity
-        public Identity Identity { get; set; }
+        public LoadNames loadNames { get; set; }
+
+
 
         public string Strength { get; set; }
         public string Dexterity { get; set; }
@@ -38,7 +40,8 @@ namespace FinalTest.Objects
         CharacterPortfolio()
         {
             this.Skills = new List<Skill>();
-            this.Identity = new Identity();
+            this.loadNames = new LoadNames();
+
         }
     }
 }
