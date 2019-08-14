@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace FinalTest.Objects
 {
+
+    //Student Name: Wenxu Kang
+    //Student ID:300943385
+    //Description: the skill class to be used with the CharacterPortfolio Class
+
+
+
     class Skill
     {
         public string Name { get; set; }
