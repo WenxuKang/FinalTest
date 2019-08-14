@@ -10,7 +10,7 @@ namespace FinalTest.Objects
     //Student Name: Wenxu Kang
     //Student ID:300943385
     //Description: The Identity class to be use with the characterPortfolio class
-
+    //section C
 
     public class LoadNames
     {
